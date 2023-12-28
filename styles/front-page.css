@@ -22,7 +22,7 @@
   color: var(--color-gray);
   text-align: center;
 }
-.banner__content a {
+.banner__content .button {
   display: block;
   margin: 0 auto;
   text-decoration: none;
@@ -36,6 +36,52 @@
   line-height: 24px;
   letter-spacing: 4px;
   text-transform: uppercase;
+}
+
+.opportunity {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.opportunity h2 {
+  max-width: 710px;
+  line-height: clamp(28px, 3vw, 40px);
+}
+.opportunity p {
+  max-width: 710px;
+}
+.opportunity__info {
+  display: flex;
+  column-gap: 30px;
+  justify-content: flex-end;
+}
+.opportunity__info span {
+  max-width: 333px;
+  font-size: 0.9rem;
+}
+.opportunity__benefits {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+.opportunity__benefits img {
+  max-width: clamp(600px, 47vw, 875px);
+  width: 100%;
+}
+.opportunity__benefits h3 {
+  align-self: flex-end;
+  font-style: italic;
+  font-weight: 700;
+  color: var(--color-secondary);
+  max-width: 300px;
+  width: 100%;
+  flex-grow: 4;
+  line-height: clamp(30px, 3vw, 40px);
 }
 
 /*# sourceMappingURL=front-page.css.map */
