@@ -17,11 +17,12 @@
             <span>Imperdiet proin fermentum leo vel orci porta non. Tincidunt vitae semper quis lectus nulla at. Neque vitae tempus quam pellentesque nec. Dignissim sodales ut eu sem integer vitae justo eget.</span>
         </div>
         <div class="opportunity__benefits">
-            <img src="<?php echo get_theme_file_uri('/assets/img/buildings.webp')?>" alt="Grandes predios vistos da rua">
+            <img src="<?php echo get_theme_file_uri('/assets/img/buildings.webp') ?>" alt="Grandes predios vistos da rua">
             <h3>Destaque os benefícios do seu portfólio de propriedades</h3>
         </div>
+    </section>
 </div>
 
-</section>
+
 
 <?php get_footer() ?>
