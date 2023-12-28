@@ -1,0 +1,16 @@
+header {
+
+    .logo {
+        position: relative;
+
+        img {
+            position: absolute;
+            left: 50%;
+            top: 40px;
+            transform: translateX(-50%);
+            z-index: 1;
+            width: clamp(220px, 50vw, 319px);
+            height:auto ;
+        }
+    }
+}
