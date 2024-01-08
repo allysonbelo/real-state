@@ -367,4 +367,47 @@
   justify-content: center;
 }
 
+.last__chance {
+  background-color: var(--color-primary);
+  margin: 70px 0px;
+}
+.last__chance__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 70px 20px;
+}
+.last__chance__container h2 {
+  max-width: 710px;
+  text-align: center;
+  line-height: 50px;
+}
+.last__chance__container p {
+  max-width: 800px;
+  text-align: center;
+}
+.last__chance__container .last__chance--content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 70px;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 769px) {
+  .last__chance__container .last__chance--content {
+    flex-direction: column;
+  }
+}
+.last__chance__container .last__chance--content img {
+  width: clamp(400px, 40vw, 579px);
+}
+.last__chance__container .last__chance--content p {
+  max-width: 379px;
+  margin-bottom: 40px;
+  text-align: start;
+}
+
 /*# sourceMappingURL=front-page.css.map */

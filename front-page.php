@@ -105,7 +105,7 @@
         </div>
 
         <div class="expirience__content column__two">
-            
+
             <div>
                 <h2>Como você também pode experimentar</h2>
                 <p>Quis vel eros donec ac odio. Cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Arcu cursus euismod quis viverra nibh cras</p>
@@ -115,6 +115,24 @@
 
         </div>
     </section>
+</div>
+
+<div class="last__chance">
+    <div class="wrapper">
+        <section class="last__chance__container">
+            <h2>Sua última chance de obter uma das últimas propriedades</h2>
+            <p>Quis vel eros donec ac odio. Cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Arcu cursus euismod quis viverra nibh cras</p>
+
+            <div class="last__chance--content">
+                <img src="<?php echo get_theme_file_uri('/assets/img/apartment-stairs.png') ?>" alt="Vista de um apartamento do seu interior, inicio da escada">
+                <div>
+                    <p>Proin libero nunc consequat interdum varius sit amet mattis vulputate. Dui sapien eget mi proin sed libero enim sed. Et ultrices neque ornare aenean. A arcu cursus vitae congue mauris rhoncus aenean vel elit. Accumsan sit amet nulla facilisi. </p>
+                    <p>Imperdiet proin fermentum leo vel orci porta non. Tincidunt vitae semper quis lectus nulla at. Neque vitae tempus quam pellentesque nec. Dignissim sodales ut eu sem integer vitae justo eget.</p>
+                    <a class="button__secondary" href="#">Baixar Brochure agora</a>
+                </div>
+            </div>
+        </section>
+    </div>
 </div>
 
 
