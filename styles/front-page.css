@@ -1,6 +1,6 @@
 .banner {
   min-height: 100vh;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent), url("../assets/img/banner.webp") no-repeat center center/cover;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url("../assets/img/banner.webp") no-repeat center center/cover;
   position: relative;
 }
 .banner__content {
@@ -48,7 +48,6 @@
 }
 .opportunity h2 {
   max-width: 710px;
-  line-height: clamp(28px, 3vw, 40px);
 }
 .opportunity p {
   max-width: 710px;
@@ -190,7 +189,6 @@
 .special__container .special h2 {
   max-width: 710px;
   text-align: center;
-  line-height: clamp(28px, 3vw, 40px);
 }
 .special__container .special p {
   text-align: center;
@@ -247,7 +245,6 @@
 }
 .special__container .residencial__content h2 {
   width: 290px;
-  line-height: clamp(28px, 3vw, 40px);
   word-break: break-all;
 }
 .special__container .residencial__content span {
@@ -352,8 +349,6 @@
 }
 .expirience .column__two div h2 {
   text-align: center;
-  line-height: 40px;
-  /* 125% */
   max-width: 404px;
 }
 .expirience .column__two div p {
@@ -382,7 +377,6 @@
 .last__chance__container h2 {
   max-width: 710px;
   text-align: center;
-  line-height: 50px;
 }
 .last__chance__container p {
   max-width: 800px;

@@ -1,6 +1,6 @@
 .banner {
     min-height: 100vh;
-    background: linear-gradient(to top, rgba(0, 0, 0, .4), transparent), url('../assets/img/banner.webp') no-repeat center center / cover;
+    background: linear-gradient(to top, rgba(0, 0, 0, .7), transparent), url('../assets/img/banner.webp') no-repeat center center / cover;
     position: relative;
 
     &__content {
@@ -53,8 +53,7 @@
     row-gap: 20px;
 
     h2 {
-        max-width: 710px;
-        line-height: clamp(28px, 3vw, 40px);
+        max-width: 710px
     }
 
     p {
@@ -213,7 +212,6 @@
         h2 {
             max-width: 710px;
             text-align: center;
-            line-height: clamp(28px, 3vw, 40px);
         }
 
         p {
@@ -274,7 +272,6 @@
 
             h2 {
                 width: 290px;
-                line-height: clamp(28px, 3vw, 40px);
                 word-break: break-all;
             }
 
@@ -395,8 +392,6 @@
 
             h2 {
                 text-align: center;
-                line-height: 40px;
-                /* 125% */
                 max-width: 404px;
             }
 
@@ -432,7 +427,6 @@
         h2 {
             max-width: 710px;
             text-align: center;
-            line-height: 50px;
         }
 
         p {
